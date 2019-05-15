@@ -1,4 +1,4 @@
-package us.sodiumlabs.bcf.mods.hello;
+package us.sodiumlabs.bcf.mods.commands;
 
 import com.mojang.brigadier.Command;
 import net.minecraft.network.chat.TextComponent;
