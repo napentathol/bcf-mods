@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bcf-mods",
+  "version": "${version}",
+
+  "name": "Binary Chaos Mods",
+  "description": "Mods used for the Binary Chaos servers.",
+  "authors": [
+    "A Webster"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "us.sodiumlabs.bcf.mods.Initializer"
+    ]
+  },
+  "mixins": [],
+
+  "requires": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
